@@ -1,0 +1,10 @@
+name: Basiccontent
+form: $/morley/basiccontent/models/basiccontent/fields.yaml
+modelClass: Morley\Basiccontent\Models\Basiccontent
+defaultRedirect: morley/basiccontent/basiccontent
+create:
+    redirect: 'morley/basiccontent/basiccontent/update/:id'
+    redirectClose: morley/basiccontent/basiccontent
+update:
+    redirect: morley/basiccontent/basiccontent
+    redirectClose: morley/basiccontent/basiccontent

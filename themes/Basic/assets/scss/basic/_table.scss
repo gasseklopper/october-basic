@@ -1,0 +1,30 @@
+table {
+  margin: 0 0 $gutter/2;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+
+  tr {
+    cell-padding: 10px 0;
+    border: 2px solid #e3e3e3;
+    background-color: white;
+  }
+
+  tr:nth-child(even) {
+    background: #e7ebef;
+  }
+
+  tr:first-child {
+    border: 2px solid #e3e3e3;
+  }
+
+  th {
+    border: 2px solid #e3e3e3;
+  }
+
+  td {
+    height: 25px;
+    padding: 10px;
+    border: 2px solid #e3e3e3;
+  }
+}

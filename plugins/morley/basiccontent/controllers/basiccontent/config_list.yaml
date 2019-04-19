@@ -1,0 +1,12 @@
+title: Basiccontent
+modelClass: Morley\Basiccontent\Models\Basiccontent
+list: $/morley/basiccontent/models/basiccontent/columns.yaml
+recordUrl: 'morley/basiccontent/basiccontent/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

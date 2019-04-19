@@ -1,0 +1,81 @@
+1555698336a:1:{s:17:"site/header.1.htm";a:6:{s:8:"fileName";s:17:"site/header.1.htm";s:7:"content";s:3112:"[viewBag]
+==
+<!-- Nav -->
+<div class="holygrail spacing-huge">
+			<header>
+                <div class="wrapper">
+    				<div class="holygrail__nav">
+        				<div class="holygrail__nav holygrail__nav--left">
+        					 <div class="collapse navbar-collapse navbar-main-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li><a class="{% if this.page.id == 'home' %}active{% endif %}" href="{{ 'home'|page }}">Basic concepts</a></li>
+                                    <li><a class="{% if this.page.id == 'ajax' %}active{% endif %}" href="{{ 'ajax'|page }}">AJAX framework</a></li>
+                                    <li><a class="{% if this.page.id == 'plugins' %}active{% endif %}" href="{{ 'plugins'|page }}">Plugin components</a></li>
+                                    <li><a class="{% if staticPage.title == 'root' %}active{% endif %}" href="{{ 'root'|staticPage }}">root</a></li>
+                                </ul>
+                            </div>
+        				</div>
+        				<div class="holygrail__nav holygrail__nav--right">
+        										<ul>
+        											<li><a class="{% if this.page.id == 'basiccontents' %}active{% endif %}" href="{{ 'basiccontents'|page }}">Basic Contents</a></li>
+                                                    <li><a class="{% if this.page.id == 'about' %}active{% endif %}" href="{{ 'about'|page }}">about</a></li>
+                                                    <li><a class="{% if this.page.id == 'paintinks' %}active{% endif %}" href="{{ 'paintinks'|page }}">paintinks</a></li>
+                                                    <li><a class="{% if this.page.id == 'photography' %}active{% endif %}" href="{{ 'photography'|page }}">photography</a></li>
+        										</ul>
+        				</div>
+    				</div>
+                </div>
+
+	    	<div class="holygrail__logo">{{staticPage.title}}
+				<svg xmlns="http://www.w3.org/2000/svg" width="60.953" height="61.664" viewBox="0 0 49.953 51.664">
+				  <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-258.824 -193.434)">
+				    <path id="Pfad_1" data-name="Pfad 1" d="M76.833-266.739l-5.043-2.712.172-26.012c0-1.405-.115-3.439,0-5.138h-.115a24,24,0,0,1-.646,2.882l-3.253,14.787-4.936-1.111s-3.2-15.821-3.495-17.449c.8,10.822.672,25.157.672,25.157L56.24-278.91V-304.68l6.348-3.361,1.6,9.387c.044.134,1.2,7.28,1.254,7.446l1.985-7.446,4.364-15.436,5.043-2.649Z" transform="translate(203.084 511)" fill="none" stroke="#fff" stroke-width="1"/>
+				    <path id="Pfad_4" data-name="Pfad 4" d="M56.24-266.907l6.211-2.7-.212-25.924c0-1.4.141-3.427,0-5.12h.141a20.123,20.123,0,0,0,.8,2.872l4.006,14.737,6.079-1.107s3.938-15.768,4.3-17.39c-.98,10.785-.827,25.072-.827,25.072l4.863-2.568V-304.72l-7.817-3.35-1.969,9.355c-.054.134-1.482,7.256-1.544,7.421l-2.444-7.421L62.451-314.1l-6.211-2.64Z" transform="translate(226.676 511.168)" fill="none" stroke="#fff" stroke-width="1"/>
+				  </g>
+				</svg>
+			</div>
+			<div class="holygrail__content-header-bottom">
+
+			</div>
+		</header>
+
+	</div>";s:5:"mtime";i:1555680318;s:6:"markup";s:3097:"<!-- Nav -->
+<div class="holygrail spacing-huge">
+			<header>
+                <div class="wrapper">
+    				<div class="holygrail__nav">
+        				<div class="holygrail__nav holygrail__nav--left">
+        					 <div class="collapse navbar-collapse navbar-main-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li><a class="{% if this.page.id == 'home' %}active{% endif %}" href="{{ 'home'|page }}">Basic concepts</a></li>
+                                    <li><a class="{% if this.page.id == 'ajax' %}active{% endif %}" href="{{ 'ajax'|page }}">AJAX framework</a></li>
+                                    <li><a class="{% if this.page.id == 'plugins' %}active{% endif %}" href="{{ 'plugins'|page }}">Plugin components</a></li>
+                                    <li><a class="{% if staticPage.title == 'root' %}active{% endif %}" href="{{ 'root'|staticPage }}">root</a></li>
+                                </ul>
+                            </div>
+        				</div>
+        				<div class="holygrail__nav holygrail__nav--right">
+        										<ul>
+        											<li><a class="{% if this.page.id == 'basiccontents' %}active{% endif %}" href="{{ 'basiccontents'|page }}">Basic Contents</a></li>
+                                                    <li><a class="{% if this.page.id == 'about' %}active{% endif %}" href="{{ 'about'|page }}">about</a></li>
+                                                    <li><a class="{% if this.page.id == 'paintinks' %}active{% endif %}" href="{{ 'paintinks'|page }}">paintinks</a></li>
+                                                    <li><a class="{% if this.page.id == 'photography' %}active{% endif %}" href="{{ 'photography'|page }}">photography</a></li>
+        										</ul>
+        				</div>
+    				</div>
+                </div>
+
+	    	<div class="holygrail__logo">{{staticPage.title}}
+				<svg xmlns="http://www.w3.org/2000/svg" width="60.953" height="61.664" viewBox="0 0 49.953 51.664">
+				  <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-258.824 -193.434)">
+				    <path id="Pfad_1" data-name="Pfad 1" d="M76.833-266.739l-5.043-2.712.172-26.012c0-1.405-.115-3.439,0-5.138h-.115a24,24,0,0,1-.646,2.882l-3.253,14.787-4.936-1.111s-3.2-15.821-3.495-17.449c.8,10.822.672,25.157.672,25.157L56.24-278.91V-304.68l6.348-3.361,1.6,9.387c.044.134,1.2,7.28,1.254,7.446l1.985-7.446,4.364-15.436,5.043-2.649Z" transform="translate(203.084 511)" fill="none" stroke="#fff" stroke-width="1"/>
+				    <path id="Pfad_4" data-name="Pfad 4" d="M56.24-266.907l6.211-2.7-.212-25.924c0-1.4.141-3.427,0-5.12h.141a20.123,20.123,0,0,0,.8,2.872l4.006,14.737,6.079-1.107s3.938-15.768,4.3-17.39c-.98,10.785-.827,25.072-.827,25.072l4.863-2.568V-304.72l-7.817-3.35-1.969,9.355c-.054.134-1.482,7.256-1.544,7.421l-2.444-7.421L62.451-314.1l-6.211-2.64Z" transform="translate(226.676 511.168)" fill="none" stroke="#fff" stroke-width="1"/>
+				  </g>
+				</svg>
+			</div>
+			<div class="holygrail__content-header-bottom">
+
+			</div>
+		</header>
+
+	</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

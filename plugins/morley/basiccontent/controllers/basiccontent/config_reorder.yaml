@@ -1,0 +1,4 @@
+title: Basiccontent
+modelClass: Morley\Basiccontent\Models\Basiccontent
+toolbar:
+    buttons: reorder_toolbar

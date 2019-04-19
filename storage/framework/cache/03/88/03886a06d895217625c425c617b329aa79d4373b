@@ -1,0 +1,141 @@
+1555698312a:1:{s:16:"explain/ajax.htm";a:6:{s:8:"fileName";s:16:"explain/ajax.htm";s:7:"content";s:2090:"[viewBag]
+snippetCode = "exjax"
+snippetName = "explainajaxhtm"
+snippetProperties[title1][title] = "title1"
+snippetProperties[title1][type] = "string"
+snippetProperties[title1][default] = ""
+snippetProperties[title1][options][] = ""
+snippetProperties[title2][title] = "title2"
+snippetProperties[title2][type] = "string"
+snippetProperties[title2][default] = ""
+snippetProperties[title2][options][] = ""
+==
+<hr />
+
+<!-- This file is an explanation of the AJAX page -->
+
+<p class="lead">
+    <i class="icon-copy"></i> &nbsp; The HTML markup for this example:
+</p>
+
+<pre>{% filter escape %}<!-- The form -->
+<form data-request="onTest" data-request-update="calcresult: '#result'">
+    <input type="text" value="15" name="value1">
+    <select name="operation">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input type="text" value="5" name="value2">
+    <button type="submit">Calculate</button>
+</form>
+
+<!-- The result -->
+<div id="result">{{ "{% partial \"calcresult\" %}" }}</div>
+{% endfilter %}</pre>
+
+<hr />
+
+<p class="lead">
+    <i class="icon-tags"></i> &nbsp; The <code>calcresult</code> partial:
+</p>
+
+<pre>{% filter escape %}
+{{ "{% if result %}" }}
+    The result is {{ "{{ result }}" }}.
+{{ "{% else %}" }}
+    Click the <em>Calculate</em> button to find the answer.
+{{ "{% endif %}" }}{% endfilter %}</pre>
+
+<hr />
+
+<p class="lead">
+    <i class="icon-code"></i> &nbsp; The <code>onTest</code> PHP code:
+</p>
+
+<pre>function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' : 
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' : 
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' : 
+            $this['result'] = $value1 * $value2;
+            break;
+        default : 
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}</pre>";s:5:"mtime";i:1555437484;s:6:"markup";s:1674:"<hr />
+
+<!-- This file is an explanation of the AJAX page -->
+
+<p class="lead">
+    <i class="icon-copy"></i> &nbsp; The HTML markup for this example:
+</p>
+
+<pre>{% filter escape %}<!-- The form -->
+<form data-request="onTest" data-request-update="calcresult: '#result'">
+    <input type="text" value="15" name="value1">
+    <select name="operation">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input type="text" value="5" name="value2">
+    <button type="submit">Calculate</button>
+</form>
+
+<!-- The result -->
+<div id="result">{{ "{% partial \"calcresult\" %}" }}</div>
+{% endfilter %}</pre>
+
+<hr />
+
+<p class="lead">
+    <i class="icon-tags"></i> &nbsp; The <code>calcresult</code> partial:
+</p>
+
+<pre>{% filter escape %}
+{{ "{% if result %}" }}
+    The result is {{ "{{ result }}" }}.
+{{ "{% else %}" }}
+    Click the <em>Calculate</em> button to find the answer.
+{{ "{% endif %}" }}{% endfilter %}</pre>
+
+<hr />
+
+<p class="lead">
+    <i class="icon-code"></i> &nbsp; The <code>onTest</code> PHP code:
+</p>
+
+<pre>function onTest()
+{
+    $value1 = input('value1');
+    $value2 = input('value2');
+    $operation = input('operation');
+
+    switch ($operation) {
+        case '+' : 
+            $this['result'] = $value1 + $value2;
+            break;
+        case '-' : 
+            $this['result'] = $value1 - $value2;
+            break;
+        case '*' : 
+            $this['result'] = $value1 * $value2;
+            break;
+        default : 
+            $this['result'] = $value1 / $value2;
+            break;
+    }
+}</pre>";s:4:"code";N;s:7:"viewBag";a:3:{s:11:"snippetCode";s:5:"exjax";s:11:"snippetName";s:14:"explainajaxhtm";s:17:"snippetProperties";a:2:{s:6:"title1";a:4:{s:5:"title";s:6:"title1";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}s:6:"title2";a:4:{s:5:"title";s:6:"title2";s:4:"type";s:6:"string";s:7:"default";s:0:"";s:7:"options";a:1:{i:0;s:0:"";}}}}}}

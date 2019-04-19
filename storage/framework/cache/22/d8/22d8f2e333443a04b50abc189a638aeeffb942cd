@@ -1,0 +1,138 @@
+1555699251a:1:{s:16:"site/header2.htm";a:6:{s:8:"fileName";s:16:"site/header2.htm";s:7:"content";s:2128:"[viewBag]
+==
+<!-- Nav -->
+<!-- Header -->
+<header class="intro">
+
+	<img class="intro__image" src="img/header.jpg" alt="Iceland glacier" />
+
+	<div class="intro__content">
+
+		<h1 class="intro__title">Essential Feelings</h1>
+
+		<div class="intro__subtitle">
+
+			<div class="codrops-links">
+				<!-- links -->
+			</div>
+
+			<div class="intro__description">
+				<!-- ... -->
+			</div>
+
+			<button class="trigger">
+
+				<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+					<g class="icon icon--grid">
+						<rect x="32.5" y="5.5" width="22" height="22" />
+						<rect x="4.5" y="5.5" width="22" height="22" />
+						<rect x="32.5" y="33.5" width="22" height="22" />
+						<rect x="4.5" y="33.5" width="22" height="22" />
+					</g>
+					<g class="icon icon--cross">
+						<line x1="4.5" y1="55.5" x2="54.953" y2="5.046" />
+						<line x1="54.953" y1="55.5" x2="4.5" y2="5.047" />
+					</g>
+				</svg>
+
+				<span>View content</span>
+
+			</button>
+
+		</div><!-- /intro__subtitle -->
+
+	</div><!-- /intro__content -->
+
+</header><!-- /intro -->
+The header gets the class “intro”. The fullscreen image is the first child with the class “intro__image”. What follows
+is the intro content that contains the main title and a subtitle with three elements: some links, a description and the
+trigger button. The trigger button is a vector graphic that we have created previously. It consists of two shape groups:
+a grid and a cross. We give them suitable class names and we’ll control their appearance with a class that we’ll toggle
+in our script.
+
+Next, we need to create the markup for our grid. For that we’ll have a main container and a wrapper for the grid
+anchors:
+
+<section class="items-wrap">
+
+	<a href="#" class="item">
+		<img class="item__image" src="img/item01.jpg" alt="item01" />
+		<h2 class="item__title">Magnificence</h2>
+	</a>
+
+	<a href="#" class="item">
+		<img class="item__image" src="img/item02.jpg" alt="item02" />
+		<h2 class="item__title">Electrifying</h2>
+	</a>
+
+	<!-- ... -->
+
+</section><!-- /items-wrap -->
+";s:5:"mtime";i:1555698645;s:6:"markup";s:2111:"<!-- Nav -->
+<!-- Header -->
+<header class="intro">
+
+	<img class="intro__image" src="img/header.jpg" alt="Iceland glacier" />
+
+	<div class="intro__content">
+
+		<h1 class="intro__title">Essential Feelings</h1>
+
+		<div class="intro__subtitle">
+
+			<div class="codrops-links">
+				<!-- links -->
+			</div>
+
+			<div class="intro__description">
+				<!-- ... -->
+			</div>
+
+			<button class="trigger">
+
+				<svg width="100%" height="100%" viewBox="0 0 60 60" preserveAspectRatio="none">
+					<g class="icon icon--grid">
+						<rect x="32.5" y="5.5" width="22" height="22" />
+						<rect x="4.5" y="5.5" width="22" height="22" />
+						<rect x="32.5" y="33.5" width="22" height="22" />
+						<rect x="4.5" y="33.5" width="22" height="22" />
+					</g>
+					<g class="icon icon--cross">
+						<line x1="4.5" y1="55.5" x2="54.953" y2="5.046" />
+						<line x1="54.953" y1="55.5" x2="4.5" y2="5.047" />
+					</g>
+				</svg>
+
+				<span>View content</span>
+
+			</button>
+
+		</div><!-- /intro__subtitle -->
+
+	</div><!-- /intro__content -->
+
+</header><!-- /intro -->
+The header gets the class “intro”. The fullscreen image is the first child with the class “intro__image”. What follows
+is the intro content that contains the main title and a subtitle with three elements: some links, a description and the
+trigger button. The trigger button is a vector graphic that we have created previously. It consists of two shape groups:
+a grid and a cross. We give them suitable class names and we’ll control their appearance with a class that we’ll toggle
+in our script.
+
+Next, we need to create the markup for our grid. For that we’ll have a main container and a wrapper for the grid
+anchors:
+
+<section class="items-wrap">
+
+	<a href="#" class="item">
+		<img class="item__image" src="img/item01.jpg" alt="item01" />
+		<h2 class="item__title">Magnificence</h2>
+	</a>
+
+	<a href="#" class="item">
+		<img class="item__image" src="img/item02.jpg" alt="item02" />
+		<h2 class="item__title">Electrifying</h2>
+	</a>
+
+	<!-- ... -->
+
+</section><!-- /items-wrap -->";s:4:"code";N;s:7:"viewBag";a:0:{}}}

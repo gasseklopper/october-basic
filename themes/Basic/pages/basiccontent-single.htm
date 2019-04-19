@@ -1,0 +1,24 @@
+title = "basiccontent single"
+url = "/basiccontents/bassiccontent/:id"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Morley\Basiccontent\Models\Basiccontent"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    {{ record.header }}
+    {{ record.eyebrow }}
+    {{ record.bodytext|raw }}
+    {{ record.quote|raw }}
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

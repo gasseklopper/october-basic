@@ -1,0 +1,11 @@
+plugin:
+    name: 'morley.basiccontent::lang.plugin.name'
+    description: 'morley.basiccontent::lang.plugin.description'
+    author: morley
+    icon: oc-icon-file
+    homepage: ''
+navigation:
+    main-menu-item2:
+        label: 'morley.basiccontent::lang.plugin.name'
+        url: morley/basiccontent/basiccontent
+        icon: icon-life-ring

@@ -1,0 +1,81 @@
+title = "basiccontents"
+url = "/basiccontents"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "Morley\Basiccontent\Models\Basiccontent"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "header"
+noRecordsMessage = "No records found"
+detailsPage = "basiccontent-single"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+recordsPerPage = 10
+pageNumber = "{{ :page }}"
+==
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+
+
+<section class="content_01">
+	<div class="row">
+
+    {% for item in records %}
+        {% if item.quote %}
+            <div class="column {% if item.sameheight %}sameHeight2{% endif %} small-12 medium-4 ">
+                <div class="content_01__box sameHeight2__content ">
+                    <h4 class="h4 eyebrow">{{ item.eyebrow }}</h4>
+                        {% if detailsPage %}
+                            <a href="{{ detailsPage|page({ (detailsUrlParameter): attribute(item, detailsKeyColumn) }) }}">
+                        {% endif %}
+                    <h2 class="h1"> {{ item.header }}</h2>
+                        {% if detailsPage %}
+                            </a>
+                            {% endif %}
+                            {{ item.bodyshort|raw }}
+                            {{ html_limit(item.bodytext, 150)|raw }}
+                            {{ item.quote|raw }}
+                            {% if item.sameheight %}
+                        {{ item.sameheight }}
+                    {% endif %}
+                </div>
+                <div class="sameHeight2__bottom">
+                    <button class="btn tooltip tooltip-right" data-tooltip="Lorem ipsum dolor sit amet">right tooltip</button>
+                </div>
+
+        		</div>
+         {% endif %}
+    {% else %}
+        <div class="column">
+          <li class="no-data">{{ noRecordsMessage }}</li>
+        </div>
+    {% endfor %}
+
+    {% if records.lastPage > 1 %}
+       <div class="column">
+             <ul class="pagination">
+                 {% if records.currentPage > 1 %}
+                     <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage-1) }) }}">&larr; Prev</a></li>
+                 {% endif %}
+
+                 {% for page in 1..records.lastPage %}
+                     <li class="{{ records.currentPage == page ? 'active' : null }}">
+                         <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+                     </li>
+                 {% endfor %}
+
+                 {% if records.lastPage > records.currentPage %}
+                     <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage+1) }) }}">Next &rarr;</a></li>
+                 {% endif %}
+             </ul>
+       </div>
+    {% endif %}
+  </div>
+</section>

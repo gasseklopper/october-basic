@@ -1,0 +1,11 @@
+columns:
+    header:
+        label: title
+        type: text
+        searchable: true
+        sortable: true
+    bodytext:
+        label: content
+        type: text
+        searchable: false
+        sortable: true

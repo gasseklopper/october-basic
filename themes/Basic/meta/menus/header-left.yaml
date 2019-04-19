@@ -1,0 +1,20 @@
+name: Header-left
+items:
+    -
+        title: 'ajaxframe woork'
+        type: cms-page
+        code: ''
+        reference: ajax
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Demonstration
+        type: cms-page
+        code: ''
+        reference: home
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'

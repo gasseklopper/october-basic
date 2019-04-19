@@ -1,0 +1,29 @@
+fields:
+    header:
+        label: Title
+        span: full
+        type: text
+    eyebrow:
+        label: 'eyebrow title'
+        span: full
+        type: text
+    bodytext:
+        label: 'Rich editor'
+        size: ''
+        span: full
+        type: richeditor
+    bodyshort:
+        label: 'Rich editor short'
+        size: ''
+        span: full
+        type: richeditor
+    quote:
+        label: quote
+        span: full
+        size: ''
+        type: richeditor
+    sameheight:
+        label: 'Checkbox sameheight'
+        span: auto
+        cssClass: sameheightfield
+        type: checkbox

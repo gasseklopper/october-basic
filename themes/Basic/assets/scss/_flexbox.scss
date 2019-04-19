@@ -1,0 +1,143 @@
+.example {
+  display: grid;
+  transition: all 0.5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
+}
+
+.holygrail {
+  font-family: sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  color: #fff;
+  //	min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+
+  .wrapper {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__nav {
+    z-index: 12;
+    width: 100%;
+    //max-width: 1200px;
+    //margin-left: auto;
+    //margin-right: auto;
+    display: flex;
+    height: 50px;
+    //flex-direction: row;
+
+    ul {
+      height: 50px;
+      display: flex;
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      padding: 0;
+      display: flex;
+      align-items: center;
+
+
+    }
+
+    &--left {
+      justify-content: flex-start;
+      li {
+        padding-left: $gutter/2;
+      }
+    }
+
+    &--right {
+      justify-content: flex-end;
+      li {
+        padding-right: $gutter/2;
+      }
+    }
+  }
+
+  &__logo {
+    position: absolute;
+    top: $gutter/2;
+    left: 0;
+    right: 0;
+  }
+
+  header {
+    left: 0;
+    z-index: 9;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    filter: drop-shadow(0 2px 4px rgba(22, 22, 24, 0.25));
+  }
+
+  &__content-header-bottom {
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    border-top: 36.6px solid rgba(0, 0, 0, 0.6);
+    filter: drop-shadow(0 2px 4px rgba(22, 22, 24, 0.25));
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+    right: calc(50% - 65px);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    background: color("primary");
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+  }
+
+  &__body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    @media (min-width: $bpL) {
+      flex-direction: row;
+    }
+  }
+
+  &__hero {
+    color: #777;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__content {
+    flex: 1 1 auto;
+    color: #777;
+  }
+
+  &__sidebar {
+    background: color("secondary");
+    padding: 20px;
+    padding-bottom: $gutter * 5;
+    @media (min-width: $bpL) {
+      flex: 0 0 260px;
+    }
+
+    &--one {
+      @media (min-width: $bpL) {
+        order: -1;
+      }
+    }
+
+    &--two {
+    }
+  }
+}
