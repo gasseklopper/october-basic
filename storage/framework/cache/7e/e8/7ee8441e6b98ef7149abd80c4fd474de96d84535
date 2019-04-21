@@ -1,4 +1,4 @@
-1555710213a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1419:"description = "Default layout"
+1555863898a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1420:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -17,7 +17,7 @@
     <body>
       <!-- Header -->
        <header id="layout-header">
-        {% partial 'site/intro' %}
+        {% partial 'site/header' %}
       </header>
       <div class="row">
     		<div class="column">
@@ -44,7 +44,7 @@
 
     </body>
 </html>
-";s:5:"mtime";i:1555698715;s:6:"markup";s:1384:"<!DOCTYPE html>
+";s:5:"mtime";i:1555836365;s:6:"markup";s:1385:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -61,7 +61,7 @@
     <body>
       <!-- Header -->
        <header id="layout-header">
-        {% partial 'site/intro' %}
+        {% partial 'site/header' %}
       </header>
       <div class="row">
     		<div class="column">

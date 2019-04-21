@@ -1,7 +1,7 @@
 /* Header */
 .header {
 	display: flex;
-	background-color: color('primary');
+	background-color: color('quaternary');
 	color: color('tertiary');
 	border-bottom: solid 3px color('primary-dark');
 	height: 3.5em;
@@ -22,7 +22,7 @@
 			white-space: nowrap;
 
 			a {
-				color: inherit;
+				color: color('tertiary');
 				text-decoration: none;
 				font-size: 0.9em;
 			}
@@ -101,7 +101,7 @@
 				}
 
 				a {
-					color: inherit;
+					color: color('highlight-color');
 					text-decoration: none;
 					border-bottom: 0;
 					font-size: 0.7em;

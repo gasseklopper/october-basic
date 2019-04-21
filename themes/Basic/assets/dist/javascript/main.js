@@ -94,10 +94,90 @@
 /***/ (function(module, exports) {
 
 var content = document.querySelectorAll('.js-array-content');
-console.log(content);
 content.forEach(function (elem) {
   console.log(elem);
 });
+
+/***/ }),
+
+/***/ "./themes/Basic/assets/js/_intro.js":
+/*!******************************************!*\
+  !*** ./themes/Basic/assets/js/_intro.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var container = document.querySelectorAll('.container_intro');
+container.forEach(function (elem) {
+  var trigger = document.querySelector('.trigger');
+  var headline = document.querySelector('.intro__title');
+
+  var toggleContent = function toggleContent() {
+    if (elem.classList.contains('container--open')) {
+      displayImg();
+      window.addEventListener('scroll', noscroll);
+    } else {
+      document.body.scrollTop = document.documentElement.scrollTop = 0;
+      window.removeEventListener('scroll', noscroll);
+    }
+
+    elem.classList.toggle('container--open');
+    trigger.classList.toggle('trigger--active');
+    headline.classList.toggle('intro__title--active');
+  };
+
+  var noscroll = function noscroll() {
+    window.scrollTo(0, 0);
+  }; // reset scrolling position
+
+
+  document.body.scrollTop = document.documentElement.scrollTop = 0; // disable scrolling
+
+  window.addEventListener('scroll', noscroll);
+  trigger.addEventListener('click', toggleContent);
+  var imgArr = ["IMG_4409.jpg", "_MG_5727.jpg", "_MG_6001.jpg", "_MG_6167.jpg", "IMG_7153.jpg", "PICT6732-Edit.jpg"];
+
+  function displayImg() {
+    var num = Math.floor(Math.random() * imgArr.length);
+    document.canvas.src = "./themes/Basic/assets/images/" + imgArr[num];
+  }
+});
+
+/***/ }),
+
+/***/ "./themes/Basic/assets/js/_sidepanel.js":
+/*!**********************************************!*\
+  !*** ./themes/Basic/assets/js/_sidepanel.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var menuPanelButton = document.querySelector('.js-menu-panel');
+
+if (menuPanelButton) {
+  console.log(menuPanelButton);
+  menuPanelButton.addEventListener('click', function () {
+    var element = document.getElementById('menu');
+    element.classList.toggle('visible');
+    console.log(element);
+    console.log('pressed');
+  });
+  var menuPanelButtonClose = document.querySelector('.js-menu-panel-close');
+  console.log(menuPanelButtonClose);
+  menuPanelButtonClose.addEventListener('click', function () {
+    var element = document.getElementById('menu');
+    element.classList.toggle('visible');
+    console.log(element);
+    console.log('pressed');
+  });
+  var searchButtonClose = document.querySelector('.js-search-button');
+  console.log(searchButtonClose);
+  searchButtonClose.addEventListener('click', function () {
+    var element = document.querySelector('.search__form');
+    console.log(element);
+    console.log('pressed');
+  });
+}
 
 /***/ }),
 
@@ -135,57 +215,6 @@ es.forEach(function (elem) {
   var outputColorHEX = elem.querySelector('.styleguide_colors__hextitle');
   outputColorHEX.innerHTML = outputColorHEX.innerHTML + rgbToHex(col);
 });
-var menuPanelButton = document.querySelector('.js-menu-panel');
-console.log(menuPanelButton);
-
-if (menuPanelButton) {
-  menuPanelButton.addEventListener('click', function () {
-    var element = document.getElementById('menu');
-    element.classList.toggle('visible');
-    console.log(element);
-    console.log('pressed');
-  });
-  var menuPanelButtonClose = document.querySelector('.js-menu-panel-close');
-  console.log(menuPanelButtonClose);
-  menuPanelButtonClose.addEventListener('click', function () {
-    var element = document.getElementById('menu');
-    element.classList.toggle('visible');
-    console.log(element);
-    console.log('pressed');
-  });
-  var searchButtonClose = document.querySelector('.js-search-button');
-  console.log(searchButtonClose);
-  searchButtonClose.addEventListener('click', function () {
-    var element = document.querySelector('.search__form');
-    console.log(element);
-    console.log('pressed');
-  });
-}
-
-var container = document.querySelector('.container'),
-    trigger = document.querySelector('.trigger');
-
-function toggleContent() {
-  console.log(container);
-
-  if (container.classList.contains('.container--open')) {
-    container.classList.toggle('container--open');
-    window.addEventListener('scroll', noscroll);
-  } else {
-    container.classList.toggle('container--open');
-    window.removeEventListener('scroll', noscroll);
-  }
-}
-
-function noscroll() {
-  window.scrollTo(0, 0);
-} // reset scrolling position
-
-
-document.body.scrollTop = document.documentElement.scrollTop = 0; // disable scrolling
-
-window.addEventListener('scroll', noscroll);
-trigger.addEventListener('click', toggleContent);
 
 /***/ }),
 
@@ -202,6 +231,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styleguide__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styleguide__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./_array */ "./themes/Basic/assets/js/_array.js");
 /* harmony import */ var _array__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_array__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _intro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./_intro */ "./themes/Basic/assets/js/_intro.js");
+/* harmony import */ var _intro__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_intro__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _sidepanel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./_sidepanel */ "./themes/Basic/assets/js/_sidepanel.js");
+/* harmony import */ var _sidepanel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_sidepanel__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 

@@ -4,11 +4,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: color('gray-color-light');
-  color: color('gray-color-dark');
+  background: color('quaternary');
+  color: color('light-color');
 
   a {
-    color: color('quaternary');
+     color: color('highlight-color');
     text-decoration: none;
   }
 

@@ -18,7 +18,7 @@
 			opacity .5s ease;
 		//	transition: opacity .1s;
 		-webkit-overflow-scrolling: touch;
-		background-color: color('light-color');
+		background: color('quaternary');
 		border-left: solid 1px color('border-color');
 		box-shadow: none;
 		height: 100%;
@@ -59,20 +59,22 @@
 				padding: 1.5em 0 0 0;
 
 				a {
+					color:color('highlight-color');
 					display: block;
 					border-bottom: 0;
+						text-decoration: none;
 
 					h3 {
 						//@include vendor('transition', 'color #{_duration(transition)} ease');
-						font-size: 0.7em;
+					//	font-size: 0.7em;
 					}
 
 					p {
-						font-family: _font(family-heading);
-						font-size: 0.6em;
-						font-weight: _font(weight-heading);
-						letter-spacing: _font(kerning-heading);
-						letter-spacing: _size(letter-spacing-alt);
+				//		font-family: _font(family-heading);
+					//	font-size: 0.6em;
+			//			font-weight: _font(weight-heading);
+		//				letter-spacing: _font(kerning-heading);
+					//	letter-spacing: _size(letter-spacing-alt);
 						margin-bottom: 0;
 						text-decoration: none;
 						text-transform: uppercase;
@@ -100,4 +102,9 @@
 
 
 
+	}
+
+	.menu-panel-close {
+		width: 50px;
+		height: 50px;
 	}

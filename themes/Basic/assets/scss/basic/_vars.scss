@@ -12,13 +12,14 @@ $version: "0.0.1";
 $primary: #444645 !default;
 $primary-dark: darken($primary, 3%) !default;
 $primary-light: lighten($primary, 13%) !default;
-$secondary: lighten($primary, 37.5%) !default;
+$secondary: #21b2a6;
 $secondary-dark: darken($secondary, 3%) !default;
 $secondary-light: lighten($secondary, 3%) !default;
 $tertiary: #d9d9d8 !default;
 $tertiary-dark: darken($tertiary, 30%) !default;
 $tertiary-light: lighten($tertiary, 30%) !default;
-$quaternary: #e80000 !default;
+//$quaternary: #e80000 !default;
+$quaternary: #2a2e39 !default;
 $quaternary-dark: darken($quaternary, 30%) !default;
 $quaternary-light: lighten($quaternary, 30%) !default;
 

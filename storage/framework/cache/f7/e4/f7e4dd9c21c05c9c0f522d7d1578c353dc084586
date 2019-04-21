@@ -1,4 +1,4 @@
-1555699196a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:2293:"[viewBag]
+1555863898a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:2302:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -6,7 +6,7 @@
 	<div class="row">
 		<div class="column large-9">
 			<div class="header__navigation">
-				<h1><a href="index.html">Markus Morley</a></h1>
+				<h1><a href="./">Markus Morley</a></h1>
 				<nav class="header__links">
 					<ul class="header__nav">
 						<li><a class="{% if this.page.id == 'home' %}active{% endif %}" href="{{ 'home'|page }}">Basic concepts</a>
@@ -43,7 +43,7 @@
 
 <!-- Menu -->
 <section id="menu">
-	<button class="js-menu-panel-close"></button>
+	<button class="menu-panel-close js-menu-panel-close"></button>
 
 	<!-- Search -->
 	<section>
@@ -90,13 +90,13 @@
 	</section>
 
 </section>
-";s:5:"mtime";i:1555696913;s:6:"markup";s:2276:"<!-- Nav -->
+";s:5:"mtime";i:1555840289;s:6:"markup";s:2285:"<!-- Nav -->
 <!-- Header -->
 <header class="header">
 	<div class="row">
 		<div class="column large-9">
 			<div class="header__navigation">
-				<h1><a href="index.html">Markus Morley</a></h1>
+				<h1><a href="./">Markus Morley</a></h1>
 				<nav class="header__links">
 					<ul class="header__nav">
 						<li><a class="{% if this.page.id == 'home' %}active{% endif %}" href="{{ 'home'|page }}">Basic concepts</a>
@@ -133,7 +133,7 @@
 
 <!-- Menu -->
 <section id="menu">
-	<button class="js-menu-panel-close"></button>
+	<button class="menu-panel-close js-menu-panel-close"></button>
 
 	<!-- Search -->
 	<section>

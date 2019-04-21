@@ -1,3 +1,7 @@
+.container_intro {
+	background: color('quaternary');
+}
+
 .intro {
 	position: fixed;
 	z-index: 10;
@@ -5,58 +9,124 @@
 	width: 100%;
 	height: 100%;
 	background: #2a2e39;
-	transition: transform 0.6s;
+	transition: transform 0.6s,
+	opacity 0.6s;
 	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+
+	&__image {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		opacity: 0.6;
+		transition: transform 0.6s, opacity 0.6s;
+		transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+
+	}
+
+	&__overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: linear-gradient(to bottom, color('highlight-color'), #2a2e39);
+		opacity: 1;
+		transition: opacity 0.6s;
+	}
+
+	&__content {
+		position: absolute;
+		bottom: 0;
+		padding: 1.8em;
+		width: 100%;
+		font-size: 1.15em;
+	}
+
+	&__title {
+		color: color('tertiary');
+		margin: 0 0 20px;
+		font-weight: 900;
+		font-size: 4em;
+		line-height: 1;
+		transition: opacity 0.6s;
+		a {
+			color: color('tertiary');
+			text-decoration: none;
+				transition: opacity 0.6s;
+				transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+				opacity: .4;
+					&:hover {
+								transition: opacity 0.6s;
+								transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+						opacity: 1;
+					}
+		}
+		&--active {
+					a {
+						color: color('tertiary');
+						text-decoration: none;
+						transition: opacity 0.6s;
+						transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+						opacity: .81;
+
+						&:hover {
+							transition: opacity 0.6s;
+							transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+							opacity: 1;
+						}
+					}
+		}
+
+	}
+
+	&__subtitle {
+		color: color('highlight-color');
+		display: flex;
+		align-items: center;
+		opacity: .4;
+	}
+
+	&__description {
+		color: color('tertiary');
+		margin: 0 auto 0 1em;
+		line-height: 1.2;
+	}
 }
 
 .container--open .intro {
+	//opacity: .7;
+	background-color:rgba(42, 46, 57, 0.3);
 	transform: translate3d(0, -100%, 0) translate3d(0, 250px, 0);
-}
-
-.intro__image {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	opacity: 0.8;
-	transition: transform 0.6s, opacity 0.6s;
-	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
 }
 
 .container--open .intro__image {
 	opacity: 0;
-	transform: translate3d(0, 20%, 0);
+	transform: translate3d(0, 30%, 0);
 }
 
-.intro__content {
-	position: absolute;
-	bottom: 0;
-	padding: 1.8em;
-	width: 100%;
-	font-size: 1.15em;
+.container--open .intro__overlay {
+	transition:	opacity 0.6s;
+	opacity: .7;
+
+}
+.container--open .intro__title {
+	transition: opacity 0.6s;
+	opacity: 1;
+
 }
 
-.intro__title {
-	margin: 0 0 20px;
-	font-weight: 900;
 
-
-
-	font-size: 4em;
-	font-family: "Playfair Display", Georgia, serif;
-	line-height: 1;
+.container--open .items-wrap::after {
+	opacity: 0;
 }
 
-.intro__subtitle {
-	display: flex;
-	align-items: center;
-}
 
-.intro__description {
-	margin: 0 auto 0 1em;
-	line-height: 1.2;
-}
+
+
+
+
+
 .trigger {
 	position: relative;
 	overflow: hidden;
@@ -69,20 +139,24 @@
 	background: none;
 	flex: none;
 }
+
 .trigger span {
 	position: absolute;
 	top: 100%;
 }
+
 .icon rect,
 .icon line {
-	stroke: #dbdbdb;
+	stroke: color('tertiary');
 	fill: none;
 	stroke-width: 2px;
 }
+
 .icon {
 	transition: opacity 0.3s, transform 0.3s;
 	transform-origin: 50% 50%;
 }
+
 .icon--cross,
 .trigger--active .icon--grid {
 	opacity: 0;
@@ -93,12 +167,14 @@
 	opacity: 1;
 	transform: scale3d(1, 1, 1);
 }
+
 .items-wrap {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	padding: 250px 5px 0;
+	padding: 300px $gutter 0;
 }
+
 .items-wrap::after {
 	position: absolute;
 	top: 0;
@@ -113,17 +189,13 @@
 	pointer-events: none;
 }
 
-.container--open .items-wrap::after {
-	opacity: 0;
-}
+
 .item {
 	position: relative;
 	overflow: hidden;
 	height: 22vw;
 	flex: 1 0 25%;
 	outline: none;
-	border: 5px solid #2a2e39;
-	border-width: 0 5px 10px;
 	background: #2a2e39;
 }
 
@@ -148,9 +220,8 @@
 	bottom: 0;
 	margin: 0;
 	padding: 1em;
-	color: #dbdbdb;
+	color: color('tertiary');
 	font-size: 1.85em;
-	font-family: "Playfair Display", Georgia, serif;
 	line-height: 1;
 	transition: transform 0.3s, opacity 0.3s;
 }
@@ -175,6 +246,7 @@
 		-webkit-flex: 1 0 50%;
 		flex: 1 0 50%;
 	}
+
 	.item,
 	.intro__content {
 		font-size: 0.85em;

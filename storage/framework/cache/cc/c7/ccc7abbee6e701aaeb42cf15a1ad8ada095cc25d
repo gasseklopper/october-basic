@@ -1,6 +1,7 @@
-1555710212a:1:{s:8:"home.htm";a:8:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:4419:"title = "Demonstration"
-url = "/"
+1555863534a:1:{s:8:"home.htm";a:9:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:4556:"title = "Demonstration"
+url = "/demo"
 layout = "default"
+is_hidden = 0
 ==
 <div class="jumbotron">
     <div class="container">
@@ -117,8 +118,7 @@ layout = "default"
         <p><a href="{{ 'ajax'|page }}" class="btn btn-lg btn-default">Continue to AJAX framework</a></p>
     </div>
 
-</div>
-";s:5:"mtime";i:1555184988;s:6:"markup";s:4362:"<div class="jumbotron">
+</div>";s:5:"mtime";i:1555837466;s:6:"markup";s:4477:"<div class="jumbotron">
     <div class="container">
         {% content "welcome.htm" %}
     </div>
@@ -233,4 +233,4 @@ layout = "default"
         <p><a href="{{ 'ajax'|page }}" class="btn btn-lg btn-default">Continue to AJAX framework</a></p>
     </div>
 
-</div>";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";}}
+</div>";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:5:"/demo";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

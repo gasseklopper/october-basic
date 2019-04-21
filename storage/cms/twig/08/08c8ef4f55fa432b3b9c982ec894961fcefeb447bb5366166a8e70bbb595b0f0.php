@@ -26,7 +26,7 @@ class __TwigTemplate_2b2ade4061b7db6ec3bb2c3c07f8f8b445478d4676219f117d0f4b7673e
 \t<div class=\"row\">
 \t\t<div class=\"column large-9\">
 \t\t\t<div class=\"header__navigation\">
-\t\t\t\t<h1><a href=\"index.html\">Markus Morley</a></h1>
+\t\t\t\t<h1><a href=\"./\">Markus Morley</a></h1>
 \t\t\t\t<nav class=\"header__links\">
 \t\t\t\t\t<ul class=\"header__nav\">
 \t\t\t\t\t\t<li><a class=\"";
@@ -91,7 +91,7 @@ class __TwigTemplate_2b2ade4061b7db6ec3bb2c3c07f8f8b445478d4676219f117d0f4b7673e
 
 <!-- Menu -->
 <section id=\"menu\">
-\t<button class=\"js-menu-panel-close\"></button>
+\t<button class=\"menu-panel-close js-menu-panel-close\"></button>
 
 \t<!-- Search -->
 \t<section>
@@ -163,7 +163,7 @@ class __TwigTemplate_2b2ade4061b7db6ec3bb2c3c07f8f8b445478d4676219f117d0f4b7673e
 \t<div class=\"row\">
 \t\t<div class=\"column large-9\">
 \t\t\t<div class=\"header__navigation\">
-\t\t\t\t<h1><a href=\"index.html\">Markus Morley</a></h1>
+\t\t\t\t<h1><a href=\"./\">Markus Morley</a></h1>
 \t\t\t\t<nav class=\"header__links\">
 \t\t\t\t\t<ul class=\"header__nav\">
 \t\t\t\t\t\t<li><a class=\"{% if this.page.id == 'home' %}active{% endif %}\" href=\"{{ 'home'|page }}\">Basic concepts</a>
@@ -200,7 +200,7 @@ class __TwigTemplate_2b2ade4061b7db6ec3bb2c3c07f8f8b445478d4676219f117d0f4b7673e
 
 <!-- Menu -->
 <section id=\"menu\">
-\t<button class=\"js-menu-panel-close\"></button>
+\t<button class=\"menu-panel-close js-menu-panel-close\"></button>
 
 \t<!-- Search -->
 \t<section>

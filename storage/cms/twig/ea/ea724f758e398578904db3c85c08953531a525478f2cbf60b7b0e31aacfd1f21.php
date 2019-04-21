@@ -59,7 +59,7 @@ class __TwigTemplate_f02dfc8dd3775c38dee32b5695657500c5692c00b9e4d95e8ff7a52ed45
         ";
         // line 18
         $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/intro"        , $context['__cms_partial_params']        , true        );
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("site/header"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
         // line 19
         echo "      </header>
@@ -160,7 +160,7 @@ class __TwigTemplate_f02dfc8dd3775c38dee32b5695657500c5692c00b9e4d95e8ff7a52ed45
     <body>
       <!-- Header -->
        <header id=\"layout-header\">
-        {% partial 'site/intro' %}
+        {% partial 'site/header' %}
       </header>
       <div class=\"row\">
     \t\t<div class=\"column\">
