@@ -192,7 +192,10 @@ var SlideShowContainer = document.querySelectorAll('.js-slideshow-container');
 SlideShowContainer.forEach(function (elem) {
   // Controller
   var slideIndex = 1;
-  var buttonPrevNext = elem.querySelectorAll('.js-slideshow-button'); // UI/Controls
+  var buttonPrevNext = elem.querySelectorAll('.js-slideshow-button');
+  var buttonDots = elem.querySelectorAll('.js-slideshow-dot');
+  var slides = elem.querySelectorAll(".mySlides"); // UI/Controls
+  // next/pre Button
 
   buttonPrevNext.forEach(function (elem) {
     elem.onclick = function () {
@@ -202,53 +205,48 @@ SlideShowContainer.forEach(function (elem) {
         showSlide(1);
       }
     };
+  }); // Dots Button
+
+  buttonDots.forEach(function (elem, i) {
+    elem.onclick = function () {
+      showSlideshow(slideIndex = i + 1);
+    };
   }); // render
 
   var showSlide = function showSlide(n) {
-    console.log('showSlide');
     showSlideshow(slideIndex += n);
   };
 
-  var showSlideshow = function showSlideshow() {
-    console.log(slideIndex);
-  }; // Next/previous controls
-
-
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  } // Thumbnail image controls
-
-
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+  var showSlideshow = function showSlideshow(n) {
+    var i; // resets slideIndex to one if n is larger
 
     if (n > slides.length) {
       slideIndex = 1;
-    }
+    } // resets slideIndex to last slides item count
+
 
     if (n < 1) {
       slideIndex = slides.length;
-    }
+    } // sets every slide to display none
+
 
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
-    }
+    } // remove active state on dots
 
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
 
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
-  }
+    for (i = 0; i < buttonDots.length; i++) {
+      buttonDots[i] = buttonDots[i].classList.remove('active');
+    } // add display block for slide  on current slideIndex
 
-  showSlides(slideIndex);
+
+    slides[slideIndex - 1].style.display = "block"; // add active state on dots for current slide
+
+    buttonDots[slideIndex - 1].classList.toggle('active');
+  }; // intial load
+
+
+  showSlideshow(slideIndex);
 });
 
 /***/ }),

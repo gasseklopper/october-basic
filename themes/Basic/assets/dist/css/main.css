@@ -3292,14 +3292,14 @@ body.is-menu-visible #menu {
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+          animation-name: fade;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.08;
   }
 
   to {
@@ -3309,7 +3309,7 @@ body.is-menu-visible #menu {
 
 @keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.08;
   }
 
   to {

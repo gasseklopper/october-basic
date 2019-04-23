@@ -97,22 +97,25 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 
 \t<div class=\"mySlides fade\">
 \t\t<div class=\"numbertext\">3 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
+\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
 \t\t<div class=\"text\">Caption Three</div>
 \t</div>
 
 \t<!-- Next and previous buttons -->
 \t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
 \t<a class=\"js-slideshow-button next\" \">&#10095;</a>
+\t<br>
+\t<!-- The dots/circles -->
+\t<div style=\"text-align:left\">
+\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t</div>
 </div>
-<br>
 
-<!-- The dots/circles -->
-<div style=\"text-align:center\">
-\t<span class=\"dot\" onclick=\"currentSlide(1)\"></span>
-\t<span class=\"dot\" onclick=\"currentSlide(2)\"></span>
-\t<span class=\"dot\" onclick=\"currentSlide(3)\"></span>
-</div>
+
+
+
 <div class=\"inner\">
 \t<div class=\"major\">
 \t\t\t<header class=\"major__header\">
@@ -298,22 +301,25 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 
 \t<div class=\"mySlides fade\">
 \t\t<div class=\"numbertext\">3 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
+\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
 \t\t<div class=\"text\">Caption Three</div>
 \t</div>
 
 \t<!-- Next and previous buttons -->
 \t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
 \t<a class=\"js-slideshow-button next\" \">&#10095;</a>
+\t<br>
+\t<!-- The dots/circles -->
+\t<div style=\"text-align:left\">
+\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t</div>
 </div>
-<br>
 
-<!-- The dots/circles -->
-<div style=\"text-align:center\">
-\t<span class=\"dot\" onclick=\"currentSlide(1)\"></span>
-\t<span class=\"dot\" onclick=\"currentSlide(2)\"></span>
-\t<span class=\"dot\" onclick=\"currentSlide(3)\"></span>
-</div>
+
+
+
 <div class=\"inner\">
 \t<div class=\"major\">
 \t\t\t<header class=\"major__header\">

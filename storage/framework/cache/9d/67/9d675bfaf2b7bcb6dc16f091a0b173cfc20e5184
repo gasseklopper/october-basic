@@ -1,4 +1,4 @@
-1556009225a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:6569:"[viewBag]
+1556020307a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:6553:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -77,22 +77,25 @@
 
 	<div class="mySlides fade">
 		<div class="numbertext">3 / 3</div>
-		<img src="./themes/Basic/assets/images/_MG_5727.jpg" style="width:100%">
+		<img src="./themes/Basic/assets/images/IMG_7113.jpg" style="width:100%">
 		<div class="text">Caption Three</div>
 	</div>
 
 	<!-- Next and previous buttons -->
 	<a class="js-slideshow-button prev" ">&#10094;</a>
 	<a class="js-slideshow-button next" ">&#10095;</a>
+	<br>
+	<!-- The dots/circles -->
+	<div style="text-align:left">
+		<span class="js-slideshow-dot dot"></span>
+		<span class="js-slideshow-dot dot"></span>
+		<span class="js-slideshow-dot dot"></span>
+	</div>
 </div>
-<br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-	<span class="dot" onclick="currentSlide(3)"></span>
-</div>
+
+
+
 <div class="inner">
 	<div class="major">
 			<header class="major__header">
@@ -187,7 +190,7 @@
 
 	</section><!-- /items-wrap -->
 </div>
-";s:5:"mtime";i:1556007992;s:6:"markup";s:6552:"<!-- Nav -->
+";s:5:"mtime";i:1556015575;s:6:"markup";s:6536:"<!-- Nav -->
 <!-- Header -->
 <div class="container_intro">
 	<header class="intro">
@@ -264,22 +267,25 @@
 
 	<div class="mySlides fade">
 		<div class="numbertext">3 / 3</div>
-		<img src="./themes/Basic/assets/images/_MG_5727.jpg" style="width:100%">
+		<img src="./themes/Basic/assets/images/IMG_7113.jpg" style="width:100%">
 		<div class="text">Caption Three</div>
 	</div>
 
 	<!-- Next and previous buttons -->
 	<a class="js-slideshow-button prev" ">&#10094;</a>
 	<a class="js-slideshow-button next" ">&#10095;</a>
+	<br>
+	<!-- The dots/circles -->
+	<div style="text-align:left">
+		<span class="js-slideshow-dot dot"></span>
+		<span class="js-slideshow-dot dot"></span>
+		<span class="js-slideshow-dot dot"></span>
+	</div>
 </div>
-<br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-	<span class="dot" onclick="currentSlide(1)"></span>
-	<span class="dot" onclick="currentSlide(2)"></span>
-	<span class="dot" onclick="currentSlide(3)"></span>
-</div>
+
+
+
 <div class="inner">
 	<div class="major">
 			<header class="major__header">
