@@ -32,7 +32,7 @@ container.forEach((elem) => {
 	trigger.addEventListener('click', toggleContent);
 	const imgArr = ["IMG_4409.jpg", "_MG_5727.jpg", "_MG_6001.jpg", "_MG_6167.jpg", "IMG_7153.jpg", "PICT6732-Edit.jpg"];
 
-	function displayImg() {
+	const displayImg = () => {
 		const num = Math.floor(Math.random() * (imgArr.length));
 		document.canvas.src = "./themes/Basic/assets/images/" + imgArr[num];
 	}
