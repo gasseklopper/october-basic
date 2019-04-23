@@ -1,0 +1,19 @@
+.wrap {
+	 padding: 270px 1.8rem 0;
+}
+.carousel-container {
+	max-width: 1400px;
+	margin: auto;
+	overflow: hidden;
+	border: 5px solid black;
+}
+
+.carousel-slide {
+	display: flex;
+	height: 700px;
+	width: 100%;
+	img {
+		margin: 0;
+		object-fit: contain;
+	}
+}

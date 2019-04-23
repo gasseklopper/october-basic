@@ -78,39 +78,60 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t</div><!-- /intro__content -->
 
 \t</header><!-- /intro -->
-<section class=\"items-wrap\">
-<!-- Slideshow container -->
-<div class=\"slideshow-container js-slideshow-container\">
 
-\t<!-- Full-width images with number and caption text -->
-\t<div class=\"mySlides fade\">
-\t\t<div class=\"numbertext\">1 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
-\t\t<div class=\"text\">Caption Text</div>
-\t</div>
 
-\t<div class=\"mySlides fade\">
-\t\t<div class=\"numbertext\">2 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" style=\"width:100%\">
-\t\t<div class=\"text\">Caption Two</div>
-\t</div>
+\t<section class=\"wrap\">
+\t\t<!-- Carousel container -->
+\t\t<div class=\"carousel-container\">
+\t\t\t<div class=\"carousel-slide\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6167.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
+\t\t\t</div>
+\t\t</div>
+\t\t<button id=\"prevBtn\">prev</button>
+\t\t<button id=\"nextBtn\">next</button>
+\t</section>
 
-\t<div class=\"mySlides fade\">
-\t\t<div class=\"numbertext\">3 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
-\t\t<div class=\"text\">Caption Three</div>
-\t</div>
 
-\t<!-- Next and previous buttons -->
-\t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
-\t<a class=\"js-slideshow-button next\" \">&#10095;</a>
+\t<section class=\"wrap\">
+
+\t\t<!-- Slideshow container -->
+\t\t<div class=\"slideshow-container js-slideshow-container\">
+
+\t\t\t<!-- Full-width images with number and caption text -->
+\t\t\t<div class=\"mySlides fade\">
+\t\t\t\t<div class=\"numbertext\">1 / 3</div>
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
+\t\t\t\t<div class=\"text\">Caption Text</div>
+\t\t\t</div>
+
+\t\t\t<div class=\"mySlides fade\">
+\t\t\t\t<div class=\"numbertext\">2 / 3</div>
+\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" style=\"width:100%\">
+\t\t\t\t<div class=\"text\">Caption Two</div>
+\t\t\t</div>
+
+\t\t\t<div class=\"mySlides fade\">
+\t\t\t\t<div class=\"numbertext\">3 / 3</div>
+\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
+\t\t\t\t<div class=\"text\">Caption Three</div>
+\t\t\t</div>
+
+\t\t\t<!-- Next and previous buttons -->
+\t\t\t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
+\t<a class=\" js-slideshow-button next\" \">&#10095;</a>
 \t<br>
 \t<!-- The dots/circles -->
-\t<div style=\"text-align:left\">
-\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t</div>
+\t<div style=\" text-align:left\">
+\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t</div>
 </div>
 
 
@@ -118,97 +139,97 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 
 <div class=\"inner\">
 \t<div class=\"major\">
-\t\t\t<header class=\"major__header\">
-\t\t\t\t<h2>Arcu aliquet vel lobortis ata nisl<br>
-\t\t\t\t\teget augue amet aliquet nisl cep donec</h2>
-\t\t\t\t<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br>
-\t\t\t\t\tfringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-\t\t\t</header>
-\t\t\t<ul class=\"icons major__icon\">
-\t\t\t\t<li><span class=\"icon fa-diamond major style1\"><span class=\"label\">Lorem</span></span></li>
-\t\t\t\t<li><span class=\"icon fa-heart-o major style2\"><span class=\"label\">Ipsum</span></span></li>
-\t\t\t\t<li><span class=\"icon fa-code major style3\"><span class=\"label\">Dolor</span></span></li>
-\t\t\t</ul>
+\t\t<header class=\"major__header\">
+\t\t\t<h2>Arcu aliquet vel lobortis ata nisl<br>
+\t\t\t\teget augue amet aliquet nisl cep donec</h2>
+\t\t\t<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br>
+\t\t\t\tfringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+\t\t</header>
+\t\t<ul class=\"icons major__icon\">
+\t\t\t<li><span class=\"icon fa-diamond major style1\"><span class=\"label\">Lorem</span></span></li>
+\t\t\t<li><span class=\"icon fa-heart-o major style2\"><span class=\"label\">Ipsum</span></span></li>
+\t\t\t<li><span class=\"icon fa-code major style3\"><span class=\"label\">Dolor</span></span></li>
+\t\t</ul>
 \t</div>
 </div>
+<!-- ... -->
+
+</section><!-- /items-wrap -->
+<section class=\"items-wrap\">
+
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
+
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 \t<!-- ... -->
 
 </section><!-- /items-wrap -->
-\t<section class=\"items-wrap\">
+<section class=\"items-wrap\">
 
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
-\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
-\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t</a>
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
-\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t</a>
-\t\t<!-- ... -->
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t</section><!-- /items-wrap -->
-\t\t<section class=\"items-wrap\">
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7153.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<!-- ... -->
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+</section><!-- /items-wrap -->
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+<section class=\"items-wrap\">
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7153.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<!-- ... -->
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t</section><!-- /items-wrap -->
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
 
-\t<section class=\"items-wrap\">
+\t<!-- ... -->
 
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
-\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t</a>
-
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
-\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t</a>
-
-\t\t<!-- ... -->
-
-\t</section><!-- /items-wrap -->
+</section><!-- /items-wrap -->
 </div>";
     }
 
@@ -282,39 +303,60 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t</div><!-- /intro__content -->
 
 \t</header><!-- /intro -->
-<section class=\"items-wrap\">
-<!-- Slideshow container -->
-<div class=\"slideshow-container js-slideshow-container\">
 
-\t<!-- Full-width images with number and caption text -->
-\t<div class=\"mySlides fade\">
-\t\t<div class=\"numbertext\">1 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
-\t\t<div class=\"text\">Caption Text</div>
-\t</div>
 
-\t<div class=\"mySlides fade\">
-\t\t<div class=\"numbertext\">2 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" style=\"width:100%\">
-\t\t<div class=\"text\">Caption Two</div>
-\t</div>
+\t<section class=\"wrap\">
+\t\t<!-- Carousel container -->
+\t\t<div class=\"carousel-container\">
+\t\t\t<div class=\"carousel-slide\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6167.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
+\t\t\t</div>
+\t\t</div>
+\t\t<button id=\"prevBtn\">prev</button>
+\t\t<button id=\"nextBtn\">next</button>
+\t</section>
 
-\t<div class=\"mySlides fade\">
-\t\t<div class=\"numbertext\">3 / 3</div>
-\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
-\t\t<div class=\"text\">Caption Three</div>
-\t</div>
 
-\t<!-- Next and previous buttons -->
-\t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
-\t<a class=\"js-slideshow-button next\" \">&#10095;</a>
+\t<section class=\"wrap\">
+
+\t\t<!-- Slideshow container -->
+\t\t<div class=\"slideshow-container js-slideshow-container\">
+
+\t\t\t<!-- Full-width images with number and caption text -->
+\t\t\t<div class=\"mySlides fade\">
+\t\t\t\t<div class=\"numbertext\">1 / 3</div>
+\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
+\t\t\t\t<div class=\"text\">Caption Text</div>
+\t\t\t</div>
+
+\t\t\t<div class=\"mySlides fade\">
+\t\t\t\t<div class=\"numbertext\">2 / 3</div>
+\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" style=\"width:100%\">
+\t\t\t\t<div class=\"text\">Caption Two</div>
+\t\t\t</div>
+
+\t\t\t<div class=\"mySlides fade\">
+\t\t\t\t<div class=\"numbertext\">3 / 3</div>
+\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
+\t\t\t\t<div class=\"text\">Caption Three</div>
+\t\t\t</div>
+
+\t\t\t<!-- Next and previous buttons -->
+\t\t\t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
+\t<a class=\" js-slideshow-button next\" \">&#10095;</a>
 \t<br>
 \t<!-- The dots/circles -->
-\t<div style=\"text-align:left\">
-\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t</div>
+\t<div style=\" text-align:left\">
+\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
+\t\t</div>
 </div>
 
 
@@ -322,97 +364,97 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 
 <div class=\"inner\">
 \t<div class=\"major\">
-\t\t\t<header class=\"major__header\">
-\t\t\t\t<h2>Arcu aliquet vel lobortis ata nisl<br>
-\t\t\t\t\teget augue amet aliquet nisl cep donec</h2>
-\t\t\t\t<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br>
-\t\t\t\t\tfringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-\t\t\t</header>
-\t\t\t<ul class=\"icons major__icon\">
-\t\t\t\t<li><span class=\"icon fa-diamond major style1\"><span class=\"label\">Lorem</span></span></li>
-\t\t\t\t<li><span class=\"icon fa-heart-o major style2\"><span class=\"label\">Ipsum</span></span></li>
-\t\t\t\t<li><span class=\"icon fa-code major style3\"><span class=\"label\">Dolor</span></span></li>
-\t\t\t</ul>
+\t\t<header class=\"major__header\">
+\t\t\t<h2>Arcu aliquet vel lobortis ata nisl<br>
+\t\t\t\teget augue amet aliquet nisl cep donec</h2>
+\t\t\t<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br>
+\t\t\t\tfringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+\t\t</header>
+\t\t<ul class=\"icons major__icon\">
+\t\t\t<li><span class=\"icon fa-diamond major style1\"><span class=\"label\">Lorem</span></span></li>
+\t\t\t<li><span class=\"icon fa-heart-o major style2\"><span class=\"label\">Ipsum</span></span></li>
+\t\t\t<li><span class=\"icon fa-code major style3\"><span class=\"label\">Dolor</span></span></li>
+\t\t</ul>
 \t</div>
 </div>
+<!-- ... -->
+
+</section><!-- /items-wrap -->
+<section class=\"items-wrap\">
+
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
+
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 \t<!-- ... -->
 
 </section><!-- /items-wrap -->
-\t<section class=\"items-wrap\">
+<section class=\"items-wrap\">
 
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
-\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
-\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t</a>
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
-\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t</a>
-\t\t<!-- ... -->
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t</section><!-- /items-wrap -->
-\t\t<section class=\"items-wrap\">
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_4409.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7153.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
+\t<!-- ... -->
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_5727.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+</section><!-- /items-wrap -->
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" alt=\"item01\" />
-\t\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t\t</a>
+<section class=\"items-wrap\">
 
-\t\t\t<a href=\"#\" class=\"item\">
-\t\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/IMG_7153.jpg\" alt=\"item02\" />
-\t\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t\t</a>
-\t\t\t<!-- ... -->
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
+\t\t<h2 class=\"item__title\">Magnificence</h2>
+\t</a>
 
-\t\t</section><!-- /items-wrap -->
+\t<a href=\"#\" class=\"item\">
+\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
+\t\t<h2 class=\"item__title\">Electrifying</h2>
+\t</a>
 
-\t<section class=\"items-wrap\">
+\t<!-- ... -->
 
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6001.jpg\" alt=\"item01\" />
-\t\t\t<h2 class=\"item__title\">Magnificence</h2>
-\t\t</a>
-
-\t\t<a href=\"#\" class=\"item\">
-\t\t\t<img class=\"item__image\" src=\"./themes/Basic/assets/images/_MG_6167.jpg\" alt=\"item02\" />
-\t\t\t<h2 class=\"item__title\">Electrifying</h2>
-\t\t</a>
-
-\t\t<!-- ... -->
-
-\t</section><!-- /items-wrap -->
+</section><!-- /items-wrap -->
 </div>", "C:\\xampp\\htdocs\\october-basic/themes/Basic/partials/site/intro.htm", "");
     }
 }

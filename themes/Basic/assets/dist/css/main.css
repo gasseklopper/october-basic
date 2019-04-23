@@ -3317,3 +3317,26 @@ body.is-menu-visible #menu {
   }
 }
 
+.wrap {
+  padding: 270px 1.8rem 0;
+}
+
+.carousel-container {
+  max-width: 1400px;
+  margin: auto;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.carousel-slide {
+  display: flex;
+  height: 700px;
+  width: 100%;
+}
+
+.carousel-slide img {
+  margin: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
