@@ -2,8 +2,5 @@
 *.log
 .node_modules
 .storage
-storage/framework/sessions/ECFMERGyh6ykt3YvrTlYSnLhjGEwgRGbMhA90UYx
-storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212
-storage/framework/cache/9d/67/9d675bfaf2b7bcb6dc16f091a0b173cfc20e5184
-storage/cms/twig/ba/ba914fda3067bee6bbb07c0186eba476e841a5ce273000b8db6d4e705d1e446b.php
-storage/cms/cache/d1/8c/intro.htm.php
+.storage/framework
+.storage/cms
