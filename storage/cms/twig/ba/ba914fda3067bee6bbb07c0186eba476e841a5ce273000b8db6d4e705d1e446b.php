@@ -86,6 +86,7 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t<div class=\"carousel-slide\">
 
 
+
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
 \t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
@@ -311,6 +312,7 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
 \t\t\t<div class=\"carousel-slide\">
+
 
 
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">

@@ -1,4 +1,4 @@
-1556028560a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7187:"[viewBag]
+1556087758a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7189:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -64,6 +64,7 @@
 		<!-- Carousel container -->
 		<div class="carousel-container">
 			<div class="carousel-slide">
+
 
 
 				<img src="./themes/Basic/assets/images/_MG_6001.jpg" id="lastClone">
@@ -213,7 +214,7 @@
 
 </section><!-- /items-wrap -->
 </div>
-";s:5:"mtime";i:1556027959;s:6:"markup";s:7170:"<!-- Nav -->
+";s:5:"mtime";i:1556028151;s:6:"markup";s:7172:"<!-- Nav -->
 <!-- Header -->
 <div class="container_intro">
 	<header class="intro">
@@ -277,6 +278,7 @@
 		<!-- Carousel container -->
 		<div class="carousel-container">
 			<div class="carousel-slide">
+
 
 
 				<img src="./themes/Basic/assets/images/_MG_6001.jpg" id="lastClone">

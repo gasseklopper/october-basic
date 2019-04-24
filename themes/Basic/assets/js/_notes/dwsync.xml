@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="main.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132002206402173800" remote="132002335200000000" Dst="2" />
+<file name="main.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132004962752003597" remote="132005607000000000" Dst="2" />
 <file name="_array.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132002218999997831" remote="132002335200000000" Dst="2" />
 <file name="_styleguide.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132002205240070228" remote="132002335200000000" Dst="2" />
 <file name="_intro.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132003433114939968" remote="132003437400000000" Dst="2" />
 <file name="_sidepanel.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132002219368469985" remote="132002335200000000" Dst="2" />
+<file name="_carousel.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132005003577241912" remote="132005607000000000" Dst="2" />
+<file name="_slideshow.js" server="93.90.186.204//markusmorley.de/octoberbasic/" local="132004933864946949" remote="132005607000000000" Dst="2" />
 </dwsync>
