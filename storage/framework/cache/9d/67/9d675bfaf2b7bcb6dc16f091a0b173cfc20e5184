@@ -1,4 +1,4 @@
-1556189432a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:5997:"[viewBag]
+1556205652a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:6133:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -64,16 +64,16 @@
 	<section class="wrap">
 		<!-- Carousel container -->
 		<div class="carousel-container">
-			<button id="prevBtn">prev</button>
-			<button id="nextBtn">next</button>
+			<button id="prevBtn">&#10094;</button>
+			<button id="nextBtn">&#10095;</button>
 			<div class="carousel-slide">
-				<img src="./themes/Basic/assets/images/_MG_6001.jpg" id="lastClone">
-				<img src="./themes/Basic/assets/images/_MG_5727.jpg">
-				<img src="./themes/Basic/assets/images/PICT6732-Edit.jpg">
-				<img src="./themes/Basic/assets/images/IMG_7113.jpg">
-				<img src="./themes/Basic/assets/images/_MG_6167.jpg">
-				<img src="./themes/Basic/assets/images/_MG_6001.jpg">
-				<img src="./themes/Basic/assets/images/_MG_5727.jpg" id="firstClone">
+				<img src="./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg" id="lastClone">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Fashion-0341.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Fashion-020.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Darkerdays-016.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg" id="firstClone">
 			</div>
 		</div>
 	</section>
@@ -173,7 +173,7 @@
 
 </section><!-- /items-wrap -->
 </div>
-";s:5:"mtime";i:1556188831;s:6:"markup";s:5980:"<!-- Nav -->
+";s:5:"mtime";i:1556195919;s:6:"markup";s:6116:"<!-- Nav -->
 <!-- Header -->
 <div class="container_intro">
 	<header class="intro">
@@ -237,16 +237,16 @@
 	<section class="wrap">
 		<!-- Carousel container -->
 		<div class="carousel-container">
-			<button id="prevBtn">prev</button>
-			<button id="nextBtn">next</button>
+			<button id="prevBtn">&#10094;</button>
+			<button id="nextBtn">&#10095;</button>
 			<div class="carousel-slide">
-				<img src="./themes/Basic/assets/images/_MG_6001.jpg" id="lastClone">
-				<img src="./themes/Basic/assets/images/_MG_5727.jpg">
-				<img src="./themes/Basic/assets/images/PICT6732-Edit.jpg">
-				<img src="./themes/Basic/assets/images/IMG_7113.jpg">
-				<img src="./themes/Basic/assets/images/_MG_6167.jpg">
-				<img src="./themes/Basic/assets/images/_MG_6001.jpg">
-				<img src="./themes/Basic/assets/images/_MG_5727.jpg" id="firstClone">
+				<img src="./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg" id="lastClone">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Fashion-0341.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Fashion-020.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Darkerdays-016.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg">
+				<img src="./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg" id="firstClone">
 			</div>
 		</div>
 	</section>

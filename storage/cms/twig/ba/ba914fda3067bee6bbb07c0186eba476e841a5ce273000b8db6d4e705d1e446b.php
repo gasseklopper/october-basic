@@ -84,16 +84,16 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t<section class=\"wrap\">
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
-\t\t\t<button id=\"prevBtn\">prev</button>
-\t\t\t<button id=\"nextBtn\">next</button>
+\t\t\t<button id=\"prevBtn\">&#10094;</button>
+\t\t\t<button id=\"nextBtn\">&#10095;</button>
 \t\t\t<div class=\"carousel-slide\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6167.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg\" id=\"lastClone\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Fashion-0341.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Fashion-020.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Darkerdays-016.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg\" id=\"firstClone\">
 \t\t\t</div>
 \t\t</div>
 \t</section>
@@ -271,16 +271,16 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t<section class=\"wrap\">
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
-\t\t\t<button id=\"prevBtn\">prev</button>
-\t\t\t<button id=\"nextBtn\">next</button>
+\t\t\t<button id=\"prevBtn\">&#10094;</button>
+\t\t\t<button id=\"nextBtn\">&#10095;</button>
 \t\t\t<div class=\"carousel-slide\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6167.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\">
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg\" id=\"lastClone\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Fashion-0341.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Fashion-020.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Darkerdays-016.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-VENEZIA-2420.jpg\">
+\t\t\t\t<img src=\"./themes/Basic/assets/images/Markus-Morley-Black-White-003.jpg\" id=\"firstClone\">
 \t\t\t</div>
 \t\t</div>
 \t</section>
