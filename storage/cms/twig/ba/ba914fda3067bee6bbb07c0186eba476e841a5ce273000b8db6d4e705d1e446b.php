@@ -99,48 +99,6 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t</section>
 
 
-
-
-
-\t<section class=\"wrap\">
-
-\t\t<!-- Slideshow container -->
-\t\t<div class=\"slideshow-container js-slideshow-container\">
-
-\t\t\t<!-- Full-width images with number and caption text -->
-\t\t\t<div class=\"mySlides fade\">
-\t\t\t\t<div class=\"numbertext\">1 / 3</div>
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
-\t\t\t\t<div class=\"text\">Caption Text</div>
-\t\t\t</div>
-
-\t\t\t<div class=\"mySlides fade\">
-\t\t\t\t<div class=\"numbertext\">2 / 3</div>
-\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" style=\"width:100%\">
-\t\t\t\t<div class=\"text\">Caption Two</div>
-\t\t\t</div>
-
-\t\t\t<div class=\"mySlides fade\">
-\t\t\t\t<div class=\"numbertext\">3 / 3</div>
-\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
-\t\t\t\t<div class=\"text\">Caption Three</div>
-\t\t\t</div>
-
-\t\t\t<!-- Next and previous buttons -->
-\t\t\t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
-\t<a class=\" js-slideshow-button next\" \">&#10095;</a>
-\t<br>
-\t<!-- The dots/circles -->
-\t<div style=\" text-align:left\">
-\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t</div>
-</div>
-
-
-
-
 <div class=\"inner\">
 \t<div class=\"major\">
 \t\t<header class=\"major__header\">
@@ -326,48 +284,6 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t</div>
 \t\t</div>
 \t</section>
-
-
-
-
-
-\t<section class=\"wrap\">
-
-\t\t<!-- Slideshow container -->
-\t\t<div class=\"slideshow-container js-slideshow-container\">
-
-\t\t\t<!-- Full-width images with number and caption text -->
-\t\t\t<div class=\"mySlides fade\">
-\t\t\t\t<div class=\"numbertext\">1 / 3</div>
-\t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" style=\"width:100%\">
-\t\t\t\t<div class=\"text\">Caption Text</div>
-\t\t\t</div>
-
-\t\t\t<div class=\"mySlides fade\">
-\t\t\t\t<div class=\"numbertext\">2 / 3</div>
-\t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\" style=\"width:100%\">
-\t\t\t\t<div class=\"text\">Caption Two</div>
-\t\t\t</div>
-
-\t\t\t<div class=\"mySlides fade\">
-\t\t\t\t<div class=\"numbertext\">3 / 3</div>
-\t\t\t\t<img src=\"./themes/Basic/assets/images/IMG_7113.jpg\" style=\"width:100%\">
-\t\t\t\t<div class=\"text\">Caption Three</div>
-\t\t\t</div>
-
-\t\t\t<!-- Next and previous buttons -->
-\t\t\t<a class=\"js-slideshow-button prev\" \">&#10094;</a>
-\t<a class=\" js-slideshow-button next\" \">&#10095;</a>
-\t<br>
-\t<!-- The dots/circles -->
-\t<div style=\" text-align:left\">
-\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t\t\t<span class=\"js-slideshow-dot dot\"></span>
-\t\t</div>
-</div>
-
-
 
 
 <div class=\"inner\">

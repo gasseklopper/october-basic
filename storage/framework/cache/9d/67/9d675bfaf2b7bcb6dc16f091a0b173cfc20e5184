@@ -1,4 +1,4 @@
-1556188244a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7193:"[viewBag]
+1556189432a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:5997:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -77,48 +77,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
-
-
-	<section class="wrap">
-
-		<!-- Slideshow container -->
-		<div class="slideshow-container js-slideshow-container">
-
-			<!-- Full-width images with number and caption text -->
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="./themes/Basic/assets/images/_MG_5727.jpg" style="width:100%">
-				<div class="text">Caption Text</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="./themes/Basic/assets/images/PICT6732-Edit.jpg" style="width:100%">
-				<div class="text">Caption Two</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="./themes/Basic/assets/images/IMG_7113.jpg" style="width:100%">
-				<div class="text">Caption Three</div>
-			</div>
-
-			<!-- Next and previous buttons -->
-			<a class="js-slideshow-button prev" ">&#10094;</a>
-	<a class=" js-slideshow-button next" ">&#10095;</a>
-	<br>
-	<!-- The dots/circles -->
-	<div style=" text-align:left">
-				<span class="js-slideshow-dot dot"></span>
-				<span class="js-slideshow-dot dot"></span>
-				<span class="js-slideshow-dot dot"></span>
-		</div>
-</div>
-
-
 
 
 <div class="inner">
@@ -215,7 +173,7 @@
 
 </section><!-- /items-wrap -->
 </div>
-";s:5:"mtime";i:1556187643;s:6:"markup";s:7176:"<!-- Nav -->
+";s:5:"mtime";i:1556188831;s:6:"markup";s:5980:"<!-- Nav -->
 <!-- Header -->
 <div class="container_intro">
 	<header class="intro">
@@ -292,48 +250,6 @@
 			</div>
 		</div>
 	</section>
-
-
-
-
-
-	<section class="wrap">
-
-		<!-- Slideshow container -->
-		<div class="slideshow-container js-slideshow-container">
-
-			<!-- Full-width images with number and caption text -->
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="./themes/Basic/assets/images/_MG_5727.jpg" style="width:100%">
-				<div class="text">Caption Text</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="./themes/Basic/assets/images/PICT6732-Edit.jpg" style="width:100%">
-				<div class="text">Caption Two</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="./themes/Basic/assets/images/IMG_7113.jpg" style="width:100%">
-				<div class="text">Caption Three</div>
-			</div>
-
-			<!-- Next and previous buttons -->
-			<a class="js-slideshow-button prev" ">&#10094;</a>
-	<a class=" js-slideshow-button next" ">&#10095;</a>
-	<br>
-	<!-- The dots/circles -->
-	<div style=" text-align:left">
-				<span class="js-slideshow-dot dot"></span>
-				<span class="js-slideshow-dot dot"></span>
-				<span class="js-slideshow-dot dot"></span>
-		</div>
-</div>
-
-
 
 
 <div class="inner">
