@@ -21,9 +21,9 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
     {
         // line 1
         echo "<div class=\"footer\">
-
 \t<div class=\"footer__links\">
 \t\t<div class=\"row\">
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"social\">
 \t\t\t\t\t<h3>Social</h3>
@@ -34,6 +34,7 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 \t\t\t\t\t</ul>
 \t\t\t\t</section>
 \t\t\t</div>
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"address\">
 \t\t\t\t\t<h3>Address</h3>
@@ -41,12 +42,14 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 \t\t\t\t\t\tam Main</p>
 \t\t\t\t</section>
 \t\t\t</div>
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"phone\">
 \t\t\t\t\t<h3>Phone</h3>
 \t\t\t\t\t<p><a href=\"#\">(0177) 3716791</a></p>
 \t\t\t\t</section>
 \t\t\t</div>
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"email\">
 \t\t\t\t\t<h3>Email</h3>
@@ -54,20 +57,18 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 \t\t\t\t</section>
 \t\t\t</div>
 
-\t\t</div>
-
-\t</div>
-
-
-\t<section class=\"copyright\">
-\t\t<hr />
-\t\t<p class=\"copyright__credit\">&copy; 2013 - ";
-        // line 42
+\t\t\t<div class=\"column large-12\">
+\t\t\t\t<section class=\"copyright\">
+\t\t\t\t\t<hr />
+\t\t\t\t\t<p class=\"copyright__credit\">&copy; 2013 - ";
+        // line 41
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, "now", "Y"), "html", null, true);
         echo " Alexey Bobkov &amp; Samuel Georges.</p>
-\t</section>
+\t\t\t\t</section>
+\t\t\t</div>
 
-
+\t\t</div>
+\t</div>
 </div>";
     }
 
@@ -83,15 +84,15 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 
     public function getDebugInfo()
     {
-        return array (  66 => 42,  23 => 1,);
+        return array (  65 => 41,  23 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("<div class=\"footer\">
-
 \t<div class=\"footer__links\">
 \t\t<div class=\"row\">
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"social\">
 \t\t\t\t\t<h3>Social</h3>
@@ -102,6 +103,7 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 \t\t\t\t\t</ul>
 \t\t\t\t</section>
 \t\t\t</div>
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"address\">
 \t\t\t\t\t<h3>Address</h3>
@@ -109,12 +111,14 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 \t\t\t\t\t\tam Main</p>
 \t\t\t\t</section>
 \t\t\t</div>
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"phone\">
 \t\t\t\t\t<h3>Phone</h3>
 \t\t\t\t\t<p><a href=\"#\">(0177) 3716791</a></p>
 \t\t\t\t</section>
 \t\t\t</div>
+
 \t\t\t<div class=\"column small-6 large-3\">
 \t\t\t\t<section class=\"email\">
 \t\t\t\t\t<h3>Email</h3>
@@ -122,17 +126,15 @@ class __TwigTemplate_373c75ad8cfa9774bf8c360acfae3a1dc4a11e2e132dc5ae061254f33db
 \t\t\t\t</section>
 \t\t\t</div>
 
+\t\t\t<div class=\"column large-12\">
+\t\t\t\t<section class=\"copyright\">
+\t\t\t\t\t<hr />
+\t\t\t\t\t<p class=\"copyright__credit\">&copy; 2013 - {{ \"now\"|date(\"Y\") }} Alexey Bobkov &amp; Samuel Georges.</p>
+\t\t\t\t</section>
+\t\t\t</div>
+
 \t\t</div>
-
 \t</div>
-
-
-\t<section class=\"copyright\">
-\t\t<hr />
-\t\t<p class=\"copyright__credit\">&copy; 2013 - {{ \"now\"|date(\"Y\") }} Alexey Bobkov &amp; Samuel Georges.</p>
-\t</section>
-
-
 </div>", "C:\\xampp\\htdocs\\october-basic/themes/Basic/partials/site/footer.htm", "");
     }
 }

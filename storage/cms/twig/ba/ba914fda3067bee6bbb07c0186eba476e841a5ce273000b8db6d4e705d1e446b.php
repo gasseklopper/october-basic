@@ -83,6 +83,8 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t<section class=\"wrap\">
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
+\t\t\t\t\t\t\t\t\t<button id=\"prevBtn\">prev</button>
+\t\t\t\t\t\t\t\t\t<button id=\"nextBtn\">next</button>
 \t\t\t<div class=\"carousel-slide\">
 
 
@@ -96,8 +98,7 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
 \t\t\t</div>
 \t\t</div>
-\t\t<button id=\"prevBtn\">prev</button>
-\t\t<button id=\"nextBtn\">next</button>
+
 \t</section>
 
 
@@ -311,6 +312,8 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t<section class=\"wrap\">
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
+\t\t\t\t\t\t\t\t\t<button id=\"prevBtn\">prev</button>
+\t\t\t\t\t\t\t\t\t<button id=\"nextBtn\">next</button>
 \t\t\t<div class=\"carousel-slide\">
 
 
@@ -324,8 +327,7 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
 \t\t\t</div>
 \t\t</div>
-\t\t<button id=\"prevBtn\">prev</button>
-\t\t<button id=\"nextBtn\">next</button>
+
 \t</section>
 
 

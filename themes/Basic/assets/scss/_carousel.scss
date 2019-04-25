@@ -1,19 +1,43 @@
 .wrap {
-	 padding: 270px 1.8rem 0;
+	padding: 250px 1.8rem 0;
 }
+
 .carousel-container {
+	position: relative;
 	max-width: 1400px;
 	margin: auto;
 	overflow: hidden;
-	border: 5px solid black;
 }
 
 .carousel-slide {
 	display: flex;
+	text-align: center;
 	height: 700px;
 	width: 100%;
+		@media (max-width: $bpM) {
+			max-height: 500px;
+		}
+		@media (max-width: $bpXS) {
+			max-height: 300px;
+		}
+
 	img {
 		margin: 0;
-		object-fit: contain;
+		padding: .1em;
+		object-fit: scale-down;
 	}
+}
+
+#prevBtn {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 10;
+}
+
+#nextBtn {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	z-index: 10;
 }
