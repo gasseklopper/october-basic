@@ -34,9 +34,6 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t<img class=\"intro__image\" name=\"canvas\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"Iceland glacier\" />
 
 
-
-
-
 \t\t</div>
 
 \t\t<div class=\"intro__content\">
@@ -47,6 +44,7 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t\t\t<div class=\"intro__subtitle\">
 \t\t\t\t\t\t<h3 class=\"h2\">UX-Designer and Photographer</h3>
 \t\t\t\t\t\t<div class=\"codrops-links\">
+
 
 \t\t\t\t\t\t</div>
 
@@ -265,9 +263,6 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t<img class=\"intro__image\" name=\"canvas\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"Iceland glacier\" />
 
 
-
-
-
 \t\t</div>
 
 \t\t<div class=\"intro__content\">
@@ -278,6 +273,7 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t\t\t<div class=\"intro__subtitle\">
 \t\t\t\t\t\t<h3 class=\"h2\">UX-Designer and Photographer</h3>
 \t\t\t\t\t\t<div class=\"codrops-links\">
+
 
 \t\t\t\t\t\t</div>
 

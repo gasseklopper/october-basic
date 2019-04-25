@@ -1,4 +1,4 @@
-1556188199a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7197:"[viewBag]
+1556188244a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7193:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -14,9 +14,6 @@
 			<img class="intro__image" name="canvas" src="./themes/Basic/assets/images/IMG_7113.jpg" alt="Iceland glacier" />
 
 
-
-
-
 		</div>
 
 		<div class="intro__content">
@@ -27,6 +24,7 @@
 					<div class="intro__subtitle">
 						<h3 class="h2">UX-Designer and Photographer</h3>
 						<div class="codrops-links">
+
 
 						</div>
 
@@ -217,7 +215,7 @@
 
 </section><!-- /items-wrap -->
 </div>
-";s:5:"mtime";i:1556187573;s:6:"markup";s:7180:"<!-- Nav -->
+";s:5:"mtime";i:1556187643;s:6:"markup";s:7176:"<!-- Nav -->
 <!-- Header -->
 <div class="container_intro">
 	<header class="intro">
@@ -231,9 +229,6 @@
 			<img class="intro__image" name="canvas" src="./themes/Basic/assets/images/IMG_7113.jpg" alt="Iceland glacier" />
 
 
-
-
-
 		</div>
 
 		<div class="intro__content">
@@ -244,6 +239,7 @@
 					<div class="intro__subtitle">
 						<h3 class="h2">UX-Designer and Photographer</h3>
 						<div class="codrops-links">
+
 
 						</div>
 
