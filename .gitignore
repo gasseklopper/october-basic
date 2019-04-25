@@ -1,6 +1,5 @@
 .DS_Store
 *.log
-.node_modules
-.storage
-.storage/framework
-.storage/cms
+*/node_modules
+*/storage
+*/vendor
