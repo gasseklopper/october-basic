@@ -34,6 +34,9 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t<img class=\"intro__image\" name=\"canvas\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"Iceland glacier\" />
 
 
+
+
+
 \t\t</div>
 
 \t\t<div class=\"intro__content\">
@@ -83,12 +86,9 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t<section class=\"wrap\">
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
-\t\t\t\t\t\t\t\t\t<button id=\"prevBtn\">prev</button>
-\t\t\t\t\t\t\t\t\t<button id=\"nextBtn\">next</button>
+\t\t\t<button id=\"prevBtn\">prev</button>
+\t\t\t<button id=\"nextBtn\">next</button>
 \t\t\t<div class=\"carousel-slide\">
-
-
-
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
 \t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
@@ -98,8 +98,10 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
 \t\t\t</div>
 \t\t</div>
-
 \t</section>
+
+
+
 
 
 \t<section class=\"wrap\">
@@ -263,6 +265,9 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t<img class=\"intro__image\" name=\"canvas\" src=\"./themes/Basic/assets/images/IMG_7113.jpg\" alt=\"Iceland glacier\" />
 
 
+
+
+
 \t\t</div>
 
 \t\t<div class=\"intro__content\">
@@ -312,12 +317,9 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t<section class=\"wrap\">
 \t\t<!-- Carousel container -->
 \t\t<div class=\"carousel-container\">
-\t\t\t\t\t\t\t\t\t<button id=\"prevBtn\">prev</button>
-\t\t\t\t\t\t\t\t\t<button id=\"nextBtn\">next</button>
+\t\t\t<button id=\"prevBtn\">prev</button>
+\t\t\t<button id=\"nextBtn\">next</button>
 \t\t\t<div class=\"carousel-slide\">
-
-
-
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_6001.jpg\" id=\"lastClone\">
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\">
 \t\t\t\t<img src=\"./themes/Basic/assets/images/PICT6732-Edit.jpg\">
@@ -327,8 +329,10 @@ class __TwigTemplate_cae26e95f02f822cdfaa44a4fb946eea0600e206548676f137d59684474
 \t\t\t\t<img src=\"./themes/Basic/assets/images/_MG_5727.jpg\" id=\"firstClone\">
 \t\t\t</div>
 \t\t</div>
-
 \t</section>
+
+
+
 
 
 \t<section class=\"wrap\">

@@ -1,4 +1,4 @@
-1556184749a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7205:"[viewBag]
+1556188199a:1:{s:14:"site/intro.htm";a:6:{s:8:"fileName";s:14:"site/intro.htm";s:7:"content";s:7197:"[viewBag]
 ==
 <!-- Nav -->
 <!-- Header -->
@@ -12,6 +12,9 @@
 			<img class="intro__image" src="./themes/Basic/assets/images/IMG_7153.jpg" alt="Iceland glacier" />
 			<img class="intro__image" src="./themes/Basic/assets/images/PICT6732-Edit.jpg" alt="Iceland glacier" />-->
 			<img class="intro__image" name="canvas" src="./themes/Basic/assets/images/IMG_7113.jpg" alt="Iceland glacier" />
+
+
+
 
 
 		</div>
@@ -63,12 +66,9 @@
 	<section class="wrap">
 		<!-- Carousel container -->
 		<div class="carousel-container">
-									<button id="prevBtn">prev</button>
-									<button id="nextBtn">next</button>
+			<button id="prevBtn">prev</button>
+			<button id="nextBtn">next</button>
 			<div class="carousel-slide">
-
-
-
 				<img src="./themes/Basic/assets/images/_MG_6001.jpg" id="lastClone">
 				<img src="./themes/Basic/assets/images/_MG_5727.jpg">
 				<img src="./themes/Basic/assets/images/PICT6732-Edit.jpg">
@@ -78,8 +78,10 @@
 				<img src="./themes/Basic/assets/images/_MG_5727.jpg" id="firstClone">
 			</div>
 		</div>
-
 	</section>
+
+
+
 
 
 	<section class="wrap">
@@ -215,7 +217,7 @@
 
 </section><!-- /items-wrap -->
 </div>
-";s:5:"mtime";i:1556181699;s:6:"markup";s:7188:"<!-- Nav -->
+";s:5:"mtime";i:1556187573;s:6:"markup";s:7180:"<!-- Nav -->
 <!-- Header -->
 <div class="container_intro">
 	<header class="intro">
@@ -227,6 +229,9 @@
 			<img class="intro__image" src="./themes/Basic/assets/images/IMG_7153.jpg" alt="Iceland glacier" />
 			<img class="intro__image" src="./themes/Basic/assets/images/PICT6732-Edit.jpg" alt="Iceland glacier" />-->
 			<img class="intro__image" name="canvas" src="./themes/Basic/assets/images/IMG_7113.jpg" alt="Iceland glacier" />
+
+
+
 
 
 		</div>
@@ -278,12 +283,9 @@
 	<section class="wrap">
 		<!-- Carousel container -->
 		<div class="carousel-container">
-									<button id="prevBtn">prev</button>
-									<button id="nextBtn">next</button>
+			<button id="prevBtn">prev</button>
+			<button id="nextBtn">next</button>
 			<div class="carousel-slide">
-
-
-
 				<img src="./themes/Basic/assets/images/_MG_6001.jpg" id="lastClone">
 				<img src="./themes/Basic/assets/images/_MG_5727.jpg">
 				<img src="./themes/Basic/assets/images/PICT6732-Edit.jpg">
@@ -293,8 +295,10 @@
 				<img src="./themes/Basic/assets/images/_MG_5727.jpg" id="firstClone">
 			</div>
 		</div>
-
 	</section>
+
+
+
 
 
 	<section class="wrap">
