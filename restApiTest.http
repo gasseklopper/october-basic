@@ -3,3 +3,34 @@ https://jsonplaceholder.typicode.com/posts
 ###
 
 https://jsonplaceholder.typicode.com/posts/1
+
+
+### Book Lender API
+GET https://reactnd-books-api.udacity.com/
+Authorization: Basic dXNlcjpwYXNzd2Q=
+
+### status
+GET https://reactnd-books-api.udacity.com/status
+Authorization: Basic dXNlcjpwYXNzd2Q=
+
+### books
+GET https://reactnd-books-api.udacity.com/books
+Authorization: Basic dXNlcjpwYXNzd2Q=
+
+### /books/:id
+GET https://reactnd-books-api.udacity.com/books/nggnmAEACAAJ
+Authorization: Basic dXNlcjpwYXNzd2Q=
+
+### /books:id { shelf }
+PUT  https://reactnd-books-api.udacity.com/books/nggnmAEACAAJ
+Authorization: Basic dXNlcjpwYXNzd2Q=
+Content-Type: application/json
+
+### /search { query, maxResults }
+POST https://reactnd-books-api.udacity.com/search
+Authorization: Basic dXNlcjpwYXNzd2Q=
+
+{
+    "query": "sample",
+    "maxResults": "10"
+}
